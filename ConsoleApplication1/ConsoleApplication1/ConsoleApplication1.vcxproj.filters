@@ -27,9 +27,6 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="常用汇编指令.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -38,10 +35,13 @@
     <ClCompile Include="01_MASM和NASM和ATT和ARM之间的关系.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02-寄存器.cpp">
+    <ClCompile Include="02_寄存器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04-常用汇编指令.cpp">
+    <ClCompile Include="04_常用汇编指令.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_nasm汇编风格.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
